@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 #username{
   width: 100%;
   box-sizing: border-box;
@@ -5,7 +9,7 @@
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
-  background-image: url('searchicon.png');
+  
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
@@ -20,3 +24,91 @@ h3{
     width: 100%;
     padding: 10px;
 }
+
+/* img{
+  margin-top: 50px !important;
+  margin-left: 5px !important;
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+.img-border{
+  background-color: rgb(182, 93, 160);
+  margin: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.details{
+  
+} */
+
+.border{
+  background-color: #a9b4b1;
+  border-radius: 20px;
+  display: flex;
+  padding: 3rem;
+  max-width: 800px;
+  margin-left: 8rem;
+  margin-top: 2rem;
+
+}
+
+.image {
+  /* border: 10px solid #2a2a72; */
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+
+}
+
+.details{
+  color: #eee;
+  margin-left: 2rem;
+
+}
+.details h2{
+  margin-top: 0;
+
+}
+
+h2 p{
+  color: black;
+}
+
+.details li ul {
+  display: flex;
+  align-items: center;
+  
+}
+.details ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  /*set list type to none*/
+  padding:0;
+  max-width: 400px;
+  /*no need for differnet screen config*/
+
+}
+
+.details ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  color: black;
+  
+}
+.repos {
+  background-color:#2a2a72;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  color: rgb(17, 16, 16);
+}
+
+
