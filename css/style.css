@@ -118,17 +118,9 @@ h3{
 
 }
 
-.repos li {
-/* text-align: center; */
-  display: flex;
-  justify-content: center;
-}
-
-
 .repos li button{
   background-color: rgb(23, 13, 49);
- text-align: center;
- display: inline-block;
+ 
 
 }
 
@@ -137,10 +129,7 @@ h3{
   color: rgb(23, 13, 49); 
 }
 
-.success{
-  display: flex;
-  justify-content: center;
-}
+
 
 
 
