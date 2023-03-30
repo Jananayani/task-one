@@ -31,6 +31,10 @@ function showUsername(){
                 <li>${data.followers} Followers &nbsp</li>
                 <li>${data.following} Following &nbsp</li>
                 <li>${data.public_repos} Public Repositories</li>
+
+              </ul>
+              <ul class = "repos"> 
+                <li><button class="btn btn-success success"><a href="${data.html_url}?tab=repositories" target="_blank" >See Repositories</a></button></li>
               </ul>
             </div>
           </div>
